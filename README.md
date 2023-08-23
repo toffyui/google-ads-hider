@@ -16,7 +16,7 @@ https://github.com/yuikoito/google-ads-hider/assets/43722788/8ee22256-e82a-44a1-
 
 ```
 git clone git@github.com:yuikoito/google-ads-hider.git
-yarn install
+npm install
 ```
 
 - Compile the TypeScript files:
