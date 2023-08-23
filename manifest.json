@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Google Ads Hider",
+  "version": "1.0",
+  "description": "Hide Google search ads",
+  "permissions": ["storage", "activeTab"],
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.google.com/*",
+        "*://www.google.co.jp/*",
+        "*://www.google.co.uk/*"
+      ],
+      "js": ["dist/content.js"]
+    }
+  ],
+  "action": {
+    "default_icon": {
+      "16": "active.png",
+      "48": "active.png",
+      "128": "active.png"
+    }
+  },
+  "icons": {
+    "16": "active.png",
+    "48": "active.png",
+    "128": "active.png"
+  }
+}
