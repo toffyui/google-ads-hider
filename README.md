@@ -2,6 +2,9 @@
 
 Google Ads Hider is a browser extension designed to enhance your Google search experience. With a simple click on the extension's icon, you can easily toggle between hiding and displaying ads on your Google search results. By default, upon installation, ads will be hidden.
 
+https://github.com/yuikoito/google-ads-hider/assets/43722788/8ee22256-e82a-44a1-a08b-582386b065c8
+
+
 ### Features
 
 - **Simple One-Click Toggle**: Switch between hiding and displaying ads with just one click on the extension icon.
